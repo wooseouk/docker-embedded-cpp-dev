@@ -39,6 +39,17 @@ docker exec -it {instance-name} /bin/bash
 ```
 This connects to the container and launches bash so that you can interact with the container
 
+## Suggested usage
+**This section needs a lot of work.**
+Need to read: https://code.visualstudio.com/docs/containers/overview
+
+I haven't tried it yet.
+I recommend binding to the following folders:
+- /work for your code base
+- /.vscode for your vscode instance
+
+Remember that without binding volumes every time the container is launched it is a blank slate.
+
 ### Bind source code
 
 ### Bind vscode
